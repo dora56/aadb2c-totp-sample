@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "AppSettings:TOTPIssuer": "Azure AD B2C Demo",
+        "AppSettings:TOTPAccountPrefix": "B2CDemo",
+        "AppSettings:TOTPTimestep": 30,
+        "AppSettings:EncryptionKey": "WhiRZnDfdKq4nRthSnbm1vd9AqrXwsXZ27jd3llvehU=",
+        "AppSettings:SaltKey": "gjaoierjgaonnroeaQWEjowfewaofijeQJIDWO3424"
+    }
+}

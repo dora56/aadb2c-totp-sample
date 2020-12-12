@@ -4,7 +4,11 @@
         <AzureFunctionsVersion>V3</AzureFunctionsVersion>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.7"/>
+        <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+        <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.11" />
+        <PackageReference Include="Otp.NET" Version="1.2.2" />
+        <PackageReference Include="QRCoder" Version="1.4.1" />
+        <PackageReference Include="WebJobs.Extensions.HttpApi" Version="1.1.0" />
     </ItemGroup>
     <ItemGroup>
         <None Update="host.json">
