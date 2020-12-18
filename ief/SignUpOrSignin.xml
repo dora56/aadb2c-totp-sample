@@ -6,7 +6,8 @@
   PolicySchemaVersion="0.3.0.0"
   TenantId="{Settings:Tenant}"
   PolicyId="B2C_1A_TOTP_signup_signin"
-  PublicPolicyUri="http://{Settings:Tenant}/B2C_1A_TOTP_signup_signin">
+  PublicPolicyUri="http://{Settings:Tenant}/B2C_1A_TOTP_signup_signin"
+  DeploymentMode="Development">
 
   <BasePolicy>
     <TenantId>{Settings:Tenant}</TenantId>
